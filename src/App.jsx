@@ -58,7 +58,7 @@ function App(){
         <span className="secao-label">Stack</span>
         <h2>Tecnologias que você domina</h2>
         <div className="grid">
-          {["HTML5","CSS3","JavaScript","React","Node.js","SQL","Git","GitHub"].map(t=> <div className="card-pro card-dark" key={t}><h3>{t}</h3><p>Tecnologia essencial.</p></div>)}
+          {["HTML5","CSS3","JavaScript","React","Node.js","SQL","Git","GitHub"].map(t=> <div className="card-pro card-dark" key={t}><h3>{t}</h3><p>Tecnologia essencial do mercado.</p></div>)}
         </div>
       </div>
     </section>
