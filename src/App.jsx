@@ -48,13 +48,7 @@ function App(){
             {t:"Banco de Dados",d:"SQL, modelagem e performance."},
             {t:"Apps",d:"Criação de aplicativos reais."},
             {t:"Git & GitHub",d:"Versionamento profissional."}
-          ].map(c=>
-            <div className="card-pro" key={c.t}>
-              <div className="card-icon">◍</div>
-              <h3>{c.t}</h3>
-              <p>{c.d}</p>
-            </div>
-          )}
+          ].map(c=> <div className="card-pro" key={c.t}><div className="card-icon">◍</div><h3>{c.t}</h3><p>{c.d}</p></div>)}
         </div>
       </div>
     </section>
@@ -64,12 +58,7 @@ function App(){
         <span className="secao-label">Stack</span>
         <h2>Tecnologias que você domina</h2>
         <div className="grid">
-          {["HTML5","CSS3","JavaScript","React","Node.js","SQL","Git","GitHub"].map(t=>
-            <div className="card-pro card-dark" key={t}>
-              <h3>{t}</h3>
-              <p>Tecnologia essencial do mercado.</p>
-            </div>
-          )}
+          {["HTML5","CSS3","JavaScript","React","Node.js","SQL","Git","GitHub"].map(t=> <div className="card-pro card-dark" key={t}><h3>{t}</h3><p>Tecnologia essencial.</p></div>)}
         </div>
       </div>
     </section>
@@ -79,12 +68,7 @@ function App(){
         <span className="secao-label">Portfólio</span>
         <h2>O que você vai construir</h2>
         <div className="grid">
-          {["Sistema de Clientes","Controle de Estoque","Agendamento Online","Loja Virtual","Dashboard Admin","App de Tarefas"].map(p=>
-            <div className="card-pro" key={p}>
-              <h3>{p}</h3>
-              <p>Projeto real para seu portfólio no GitHub.</p>
-            </div>
-          )}
+          {["Sistema de Clientes","Controle de Estoque","Agendamento Online","Loja Virtual","Dashboard Admin","App de Tarefas"].map(p=> <div className="card-pro" key={p}><h3>{p}</h3><p>Projeto real para seu portfólio.</p></div>)}
         </div>
       </div>
     </section>
@@ -102,7 +86,7 @@ function App(){
     <footer className="footer">
       <div className="container">
         <p><b>Técnico em Desenvolvimento de Sistemas</b> | SENAI Santa Catarina - 2026</p>
-        <p>Desenvolvido por Ananda Steinmetz • anandanunes-bit</p>
+        <p>Desenvolvido por Ananda Steinmetz</p>
       </div>
     </footer>
   </>
