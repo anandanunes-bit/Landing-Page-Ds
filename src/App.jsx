@@ -1,9 +1,10 @@
 import './App.css'
+
 function App(){
  return(<>
  <header className="header"><div className="container"><div className="logo"><span>DS</span> DEV SISTEMAS • SENAI</div><nav><a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#tecnologias">Stack</a><a href="#projetos">Projetos</a></nav></div></header>
 
- <section id="inicio" className="hero"><div className="container hero-grid"><div><div className="badge">TURMA 2026 • VAGAS ABERTAS</div><h1>Transforme ideias em <i>sistemas reais.</i></h1><p>Aprenda a construir softwares completos, do design ao deploy. O curso mais completo de Desenvolvimento de Sistemas do SENAI.</p><div className="hero-actions"><a href="#sobre" className="btn-primary">Começar agora</a><a href="#aprender" className="btn-ghost">Ver grade →</a></div></div><div className="hero-img"><img src="https://images.unsplash.com/photo-1555066931-bf19f8fd6445?q=80&w=1200" alt="code"/></div></div></section>
+ <section id="inicio" className="hero"><div className="container hero-grid"><div><div className="badge">TURMA 2026 • VAGAS ABERTAS</div><h1>Transforme ideias em <i>sistemas reais.</i></h1><p>Aprenda a construir softwares completos, do design ao deploy. O curso mais completo de Desenvolvimento de Sistemas do SENAI.</p><div className="hero-actions"><a href="#sobre" className="btn-primary">Começar agora</a><a href="#aprender" className="btn-ghost">Ver grade →</a></div></div><div className="hero-img"><img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="code" /></div></div></section>
 
  <section id="sobre" className="secao"><span className="secao-label">Sobre o curso</span><h2>Formação completa para o mercado</h2><p className="secao-desc">Desenvolvimento de Sistemas é a arte de resolver problemas com código. Você aprende a criar desde sites até apps e APIs usadas por milhares.</p></section>
 
@@ -19,4 +20,5 @@ function App(){
  <footer className="footer"><div className="container"><p><b>Técnico em Desenvolvimento de Sistemas</b> | SENAI Santa Catarina - 2026</p><p>Desenvolvido por Ananda Nunes • anandanunes-bit</p></div></footer>
  </>)
 }
+
 export default App
